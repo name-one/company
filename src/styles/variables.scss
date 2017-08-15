@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300');
+$logo-font: 'Work Sans', sans-serif;
 $roboto: 'Roboto', sans-serif;
 $img-path: '../assets/img/';
 $focus: #468df9;
 $green: #89bd26;
+$appear-time: 1.5s;
+@mixin appearing($delay: 0){
+  animation: {
+    name: logo;
+    duration: $appear-time;
+    fill-mode: both;
+    iteration-count: 1;
+    delay: $delay;
+  };
+}
+@mixin media($resolution, $scale: 'max'){
+  @media only screen and ($scale+'-width: '+$resolution+'px'){
+    @content
+  }
+}
