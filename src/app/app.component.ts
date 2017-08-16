@@ -51,7 +51,8 @@ export class AppComponent implements OnInit {
     })
     screen.each( function(){
       if($(this).index() < curIndex){
-        $(this).animate({ marginLeft: `-${width}px`})
+        // $(this).animate({ marginLeft: `-${width}px`})
+        $(this).animate({ marginLeft: `-100vw`})
       }else{
         $(this).animate({ marginLeft: 0 })
       }

@@ -1,0 +1,49 @@
+@import './variables';
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 30px;
+  &__email{
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(255,255,255,.25);
+    font-size: .8333333333333334em;
+    transition: all .3s;
+    margin-right: 10px;
+    &:hover,
+    &:focus{
+      box-shadow: none;
+      color: #fff;
+    }
+  }
+  &__network{
+    display: inline-block;
+    margin: 0 10px 0 0;
+    font-size: 30px;
+    transition: all .3s;
+    text-decoration: none;
+    color: rgba(255,255,255,.25);
+    &::before{
+      color: inherit;
+    }
+    &:hover,
+    &:focus{
+      box-shadow: none;
+      color: #fff;
+    }
+  }
+}
+.button{
+  margin-right: 0;
+}
+.write{
+  &__text{
+    margin: 0;
+    font-size: .8rem;
+  }
+  &__link{
+    color: $green;
+  }
+}

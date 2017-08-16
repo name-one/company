@@ -10,6 +10,12 @@ $green: #89bd26;
 $appear-time: 1.5s;
 $grey: #333;
 $grey-text: #ccc;
+@mixin placeholder {
+  &::-webkit-input-placeholder {@content}
+  &:-moz-placeholder           {@content}
+  &::-moz-placeholder          {@content}
+  &:-ms-input-placeholder      {@content}
+}
 @mixin appearing($delay: 0){
   animation: {
     name: logo;

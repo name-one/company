@@ -11,5 +11,9 @@ export class ContactFormComponent implements OnInit {
 
   ngOnInit() {
   }
+  toggleFocus(event){
+    let focus = event.target.parentNode;
+    focus.classList.toggle('form__field_focus')
+  }
 
 }

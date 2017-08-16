@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?nr0mn');
-  src:  url('fonts/icomoon.eot?nr0mn#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?nr0mn') format('truetype'),
-    url('fonts/icomoon.woff?nr0mn') format('woff'),
-    url('fonts/icomoon.svg?nr0mn#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?fsyifr');
+  src:  url('fonts/icomoon.eot?fsyifr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?fsyifr') format('truetype'),
+    url('fonts/icomoon.woff?fsyifr') format('woff'),
+    url('fonts/icomoon.svg?fsyifr#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -40,11 +40,27 @@
   content: "\e903";
   color: #fff;
 }
-.icon-home:before {
+.icon-error:before {
   content: "\e904";
   color: #fff;
 }
-.icon-services:before {
+.icon-face:before {
   content: "\e905";
+  color: #fff;
+}
+.icon-home:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-insta:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-services:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-vk:before {
+  content: "\e909";
   color: #fff;
 }

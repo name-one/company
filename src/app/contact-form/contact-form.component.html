@@ -1,4 +1,14 @@
 <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="social">
+        <a href="mailto: sales@nameone.io" class="social__email">sales@nameone.io</a>
+        <a href="" class="social__network icon-face"></a>
+        <a href="" class="social__network icon-insta"></a>
+        <a href="" class="social__network icon-vk"></a>
+      </div>
+    </div>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -8,6 +18,41 @@
               <div class="col-md-12">
                 <h2 class="form__title">Send an Online Enquiry</h2>
                 <p class="form__sub-title">All fields marked with * are required.</p>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form__half">
+                    <label  class="form__field">
+                      <input type="text" class="form__input" placeholder="Name*" required (focus)="toggleFocus($event)" (blur)="toggleFocus($event)">
+                    </label>
+                    <label  class="form__field">
+                      <input type="text" class="form__input" placeholder="Country*" required (focus)="toggleFocus($event)" (blur)="toggleFocus($event)">
+                    </label>
+                  </div>
+                  <div class="form__half form__half_right">
+                    <label  class="form__field">
+                      <input type="text" class="form__input" placeholder="Company" (focus)="toggleFocus($event)" (blur)="toggleFocus($event)">
+                    </label>
+                    <label  class="form__field">
+                      <input type="text" class="form__input" placeholder="Email*" required (focus)="toggleFocus($event)" (blur)="toggleFocus($event)">
+                    </label>
+                  </div>
+                  <div class="form__clear-fix"></div>
+                  <label  class="form__field">
+                    <textarea name="name" placeholder='How did You hear about us?*' required class='form__textarea' (focus)="toggleFocus($event)" (blur)="toggleFocus($event)"></textarea>
+                  </label>
+                  <label  class="form__field form__field_last">
+                    <textarea name="name" placeholder='Message*' required class='form__textarea' (focus)="toggleFocus($event)" (blur)="toggleFocus($event)"></textarea>
+                  </label>
+                  <div class="form__half">
+                    <button class="button">Submit Request</button>
+                  </div>
+                  <div class="form__half_right write">
+                    <p class='write__text'>Or write to</p>
+                    <a href="mailto: sales@nameone.io" class='write__link'>sales@nameone.io</a>
+                  </div>
+                  <div class="form__clear-fix"></div>
+                </div>
               </div>
             </div>
           </div>

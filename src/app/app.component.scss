@@ -30,7 +30,7 @@
     clear: both;
   }
 }
-.screen{
+ .screen{
   float: left;
   width: 100vw;
   &_active{
@@ -39,16 +39,6 @@
     }
     .slogan{
       @include appearing($appear-time / 5);
-    }
-    .button{
-      &_home{
-        animation: {
-          name: scaleButton;
-          delay: $appear-time / 2.5;
-          duration: $appear-time;
-          fill-mode: both;
-        }
-      }
     }
   }
 }
@@ -81,20 +71,6 @@
   font-size: 2.75rem;
   text-align: center;
   line-height: 1.2em;
-}
-.button{
-  display: block;
-  margin: auto;
-  width: 8.125em;
-  text-align: center;
-  background-color: $green;
-  border: none;
-  font-size: 1rem;
-  height: 2.0833333333333335em;
-  line-height: 2.0833333333333335em;
-  color: #fff;
-  border-radius: 8px;
-  cursor: pointer;
 }
 .nav-container{
   position: absolute;
