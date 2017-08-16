@@ -36,7 +36,6 @@ export class AppComponent implements OnInit {
       target = target.parentNode;
     }
     let width = $('.screen').width();
-    console.log(width)
     let menuItems = document.querySelectorAll('.main-menu__item');
     let curIndex: number = 0;
     nodeForEach(menuItems, function(item, index){
@@ -58,5 +57,14 @@ export class AppComponent implements OnInit {
       }
     })
 
+  }
+  switchToContactPage(){
+    let menuItems = document.getElementsByClassName('main-menu__item');
+    let click = new Event('click');
+    nodeForEach( menuItems, (item)=>{
+      if(item.innerHTML.indexOf('Contacts') != -1){
+        item.dispatchEvent(click);
+      }
+    })
   }
 }

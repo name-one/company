@@ -1,0 +1,27 @@
+@import '../../styles/variables';
+.container-fluid{
+  height: 100vh;
+  background-color: $grey;
+  padding-top: 10vh;
+}
+.form{
+  font-weight: 300;
+  color: $grey-text;
+  font-family: $lato;
+  font-weight: 300;
+  &__title{
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    line-height: 1.2em;
+    font-weight: 300;
+    margin-bottom: 0;
+    font-family: $roboto;
+  }
+  &__sub-title{
+    text-align: center;
+    font-size: .75rem;
+    margin-top: .4em;
+    margin-bottom: 10vh;
+  }
+}
