@@ -53,6 +53,10 @@
   float: none;
   display: block;
   margin: 0 auto;
+  &__img{
+    display: block;
+    margin: 0 auto;
+  }
   &__text{
     display: block;
     text-align: center;
@@ -60,17 +64,25 @@
     font-weight: 300;
     font-family: $logo-font;
   }
+  @include media(1500){
+    &__img{
+      max-width: 70%;
+    }
+  }
 }
 .home-screen{
   padding-top: 10vh;
 }
 .slogan{
   color: #fff;
-  margin-top: 12vh;
+  margin-top: 8vh;
   font-weight: bold;
-  font-size: 2.75rem;
+  font-size: 2.4rem;
   text-align: center;
-  line-height: 1.2em;
+  line-height: 1.4em;
+  &__large{
+    font-size: 2.8rem;
+  }
 }
 .nav-container{
   position: absolute;
