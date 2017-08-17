@@ -1,4 +1,4 @@
-@import '../../styles/social';
+@import '../../styles/variables';
 .container-fluid{
   height: 100vh;
   background-color: $grey;
@@ -11,6 +11,7 @@
   font-weight: 300;
   &__title{
     margin: 0;
+    margin-top: 20px;
     text-align: center;
     color: #fff;
     line-height: 1.2em;
@@ -103,5 +104,18 @@
         opacity: .5;
       }
     }
+  }
+}
+.button{
+  margin-right: 0;
+}
+.write{
+  &__text{
+    margin: 0;
+    font-size: .8rem;
+  }
+  &__link{
+    color: $green;
+    font-weight: bold;
   }
 }

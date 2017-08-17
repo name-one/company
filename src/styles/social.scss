@@ -5,6 +5,10 @@
   justify-content: flex-end;
   align-items: center;
   margin-bottom: 30px;
+  position: absolute;
+  width: 100%;
+  right: 0;
+  top: 20px;
   &__email{
     text-decoration: none;
     display: inline-block;
@@ -33,18 +37,5 @@
       box-shadow: none;
       color: #fff;
     }
-  }
-}
-.button{
-  margin-right: 0;
-}
-.write{
-  &__text{
-    margin: 0;
-    font-size: .8rem;
-  }
-  &__link{
-    color: $green;
-    font-weight: bold;
   }
 }

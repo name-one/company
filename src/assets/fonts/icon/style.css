@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?fsyifr');
-  src:  url('fonts/icomoon.eot?fsyifr#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?fsyifr') format('truetype'),
-    url('fonts/icomoon.woff?fsyifr') format('woff'),
-    url('fonts/icomoon.svg?fsyifr#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?22evf8');
+  src:  url('fonts/icomoon.eot?22evf8#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?22evf8') format('truetype'),
+    url('fonts/icomoon.woff?22evf8') format('woff'),
+    url('fonts/icomoon.svg?22evf8#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -28,39 +28,55 @@
   content: "\e900";
   color: #fff;
 }
-.icon-career:before {
+.icon-approach:before {
   content: "\e901";
-  color: #fff;
+  color: #b9cf27;
 }
-.icon-clients:before {
+.icon-benefits:before {
   content: "\e902";
-  color: #fff;
+  color: #b9cf27;
 }
-.icon-contact:before {
+.icon-career:before {
   content: "\e903";
   color: #fff;
 }
-.icon-error:before {
+.icon-clients:before {
   content: "\e904";
   color: #fff;
 }
-.icon-face:before {
+.icon-contact:before {
   content: "\e905";
   color: #fff;
 }
-.icon-home:before {
+.icon-Error:before {
   content: "\e906";
   color: #fff;
 }
-.icon-insta:before {
+.icon-face:before {
   content: "\e907";
   color: #fff;
 }
-.icon-services:before {
+.icon-home:before {
   content: "\e908";
   color: #fff;
 }
-.icon-vk:before {
+.icon-insta:before {
   content: "\e909";
+  color: #fff;
+}
+.icon-mission:before {
+  content: "\e90a";
+  color: #b9cf27;
+}
+.icon-services:before {
+  content: "\e90b";
+  color: #fff;
+}
+.icon-values:before {
+  content: "\e90c";
+  color: #b9cf27;
+}
+.icon-vk:before {
+  content: "\e90d";
   color: #fff;
 }

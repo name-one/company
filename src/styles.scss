@@ -56,3 +56,31 @@ img{
   text-align: center;
   font-size: 1.9166666666666667rem;
 }
+.slide{
+  &__img{
+    margin: 0 auto;
+  }
+  &__text{
+    color: #fff;
+    text-align: center;
+  }
+}
+.slider{
+  &__arrow{
+    color: rgba(#fff, .25);
+    font-size: 70px;
+    position: absolute;
+    top: calc(50% - 70px);
+    z-index: 10;
+    left: -30px;
+    transition: all .3s;
+    cursor: pointer;
+    &_next{
+      left: initial;
+      right: -30px;
+    }
+    &:hover{
+      color: rgba(#fff, .75);
+    }
+  }
+}

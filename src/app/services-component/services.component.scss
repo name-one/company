@@ -24,3 +24,12 @@
     style: italic;
   }
 }
+.slider{
+  margin: 10vh 0;
+  @include media(1500){
+    margin:{
+      top: 8vh;
+      bottom: 0;
+    }
+  }
+}

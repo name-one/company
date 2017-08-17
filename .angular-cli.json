@@ -20,11 +20,13 @@
       "prefix": "app",
       "styles": [
         "../node_modules/bootstrap-grid/dist/grid.min.css",
+        "../node_modules/slick-carousel/slick/slick.css",
         "./assets/fonts/icon/style.css",
         "styles.scss"
       ],
       "scripts": [
-        "../node_modules/jquery/dist/jquery.min.js"
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/slick-carousel/slick/slick.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

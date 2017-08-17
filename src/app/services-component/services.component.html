@@ -10,6 +10,16 @@
         <p class="page-sub-title">Here at NameOne our work is something more for us that just a job: it is our life style,<br> way of thinking, and it is the art that we really like to do. <br> For our customers, this all translates to better software delivered faster.</p>
       </div>
     </div>
+    <app-slider class="slider">
+
+      <div class="slider__item slide" *ngFor='let slide of slides'>
+          <div class="slide__img-container">
+            <img src="/assets/img/icons-services/{{slide.img}}.svg" alt="{{slide.text}}" class='slide__img'>
+          </div>
+          <h3 class="slide__text" [innerHTML]='slide.text'></h3>
+
+      </div>
+    </app-slider>
     <div class="row">
       <div class="col-md-12">
         <p class='text-decore'>We prefer to build relationships with the people we work with – nothing beats a face-to-face conversation. <br>That is the reason why our customers were never lost</p>
