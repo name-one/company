@@ -2,8 +2,13 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <form class='form'>
+        <form class='form' #contactForm='ngForm'>
           <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <p class='text-color'>NameOne is here to help you and your business to grow, no matter where you are located. <br> Contact us today to find out how we can work together.</p>
+              </div>
+            </div>
             <div class="row">
               <div class="col-md-12">
                 <h2 class="form__title">Send an Online Enquiry</h2>
@@ -13,29 +18,38 @@
                 <div class="col-md-12">
                   <div class="form__half">
                     <label  class="form__field">
-                      <input type="text" class="form__input" placeholder="Name*" required (focus)="toggleFocus($event)" (blur)="toggleFocus($event)">
+                      <input type="text" class="form__input" placeholder="Name*" name='name' required (focus)="toggleFocus($event)" (blur)="toggleFocus($event); checkRequared($event)" [(ngModel)]='name'>
                     </label>
                     <label  class="form__field">
-                      <input type="text" class="form__input" placeholder="Country*" required (focus)="toggleFocus($event)" (blur)="toggleFocus($event)">
+                      <input type="text" class="form__input" placeholder="Country*" name='country' required (focus)="toggleFocus($event)" (blur)="toggleFocus($event)" [(ngModel)]='country'>
                     </label>
                   </div>
                   <div class="form__half form__half_right">
                     <label  class="form__field">
-                      <input type="text" class="form__input" placeholder="Company" (focus)="toggleFocus($event)" (blur)="toggleFocus($event)">
+                      <input type="text" class="form__input" placeholder="Company" name='company' (focus)="toggleFocus($event)" (blur)="toggleFocus($event)" [(ngModel)]='company'>
                     </label>
                     <label  class="form__field">
-                      <input type="text" class="form__input" placeholder="Email*" required (focus)="toggleFocus($event)" (blur)="toggleFocus($event)">
+                      <input type="text" class="form__input" placeholder="Email*" name='email' required (focus)="toggleFocus($event)" (blur)="toggleFocus($event)" [(ngModel)]='email'>
                     </label>
                   </div>
                   <div class="form__clear-fix"></div>
-                  <label  class="form__field">
-                    <textarea name="name" placeholder='How did You hear about us?*' required class='form__textarea' (focus)="toggleFocus($event)" (blur)="toggleFocus($event)"></textarea>
+                  <div class="form__field">
+                    <span class="form__text">How did you find us?*</span>
+                    <input type="radio" id='Recommendations' name='source' value='Recommendations' [(ngModel)]='source'>
+                    <label class='form__radio' for="Recommendations"> <i class='form__radio-icon'></i> Recommendations</label>
+                    <input type="radio" id='social-network' name='source' value='Social Network' [(ngModel)]='source'>
+                    <label class='form__radio' for="social-network"> <i class='form__radio-icon'></i> Social Network</label>
+                    <input type="radio" id='other' name='source' value='Other' [(ngModel)]='source'>
+                    <label class='form__radio' for="other"> <i class='form__radio-icon'></i> Other</label>
+                  </div>
+                  <label  class="form__field" [class.form__field_hidden]='source!="Other"'>
+                    <textarea name="source-write" placeholder='How did You hear about us?*' required class='form__textarea' (focus)="toggleFocus($event)" (blur)="toggleFocus($event)" [(ngModel)]='writedSource'></textarea>
                   </label>
                   <label  class="form__field form__field_last">
-                    <textarea name="name" placeholder='Message*' required class='form__textarea' (focus)="toggleFocus($event)" (blur)="toggleFocus($event)"></textarea>
+                    <textarea name="messege" placeholder='Message*' required class='form__textarea' (focus)="toggleFocus($event)" (blur)="toggleFocus($event)" [(ngModel)]='messege'></textarea>
                   </label>
                   <div class="form__half">
-                    <button class="button">Submit Request</button>
+                    <button class="button" [disabled]='!contactForm.valid'>Submit Request</button>
                   </div>
                   <div class="form__half_right write">
                     <p class='write__text'>Or write to</p>
