@@ -7,13 +7,15 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
 import { ServicesComponent } from './services-component/services.component';
 import { SliderComponent } from './slider/slider.component';
 import { DataService } from './services/data.service';
+import { SocialComponent } from './social/social.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactFormComponent,
     ServicesComponent,
-    SliderComponent
+    SliderComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,
