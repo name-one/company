@@ -10,6 +10,7 @@ import { SliderComponent } from './slider/slider.component';
 import { DataService } from './services/data.service';
 import { TrelloService } from './services/trello.service';
 import { SocialComponent } from './social/social.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SocialComponent } from './social/social.component';
     ContactFormComponent,
     ServicesComponent,
     SliderComponent,
-    SocialComponent
+    SocialComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

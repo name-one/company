@@ -1,0 +1,16 @@
+<div class="container-fluid ">
+  <div class="row">
+    <h2 class="page-title">About Us</h2>
+  </div>
+  <div class="container">
+    <div class="about row" >
+      <div class="about__item about-item col-md-6" *ngFor='let item of items' [ngClass]='{"about-item_vis": state==="about"}'>
+        <h3 class="about-item__title"><img src="/assets/img/icons-about/{{item.icon}}.svg" alt="{{item.title}}" class="about-item__icon">{{item.title}}</h3>
+        <p class="about-item__text" [innerHTML]="item.description"></p>
+      </div>
+    </div>
+    <div class="row">
+      <p class="col-md-12 text-decore" [ngClass]='{"text-decore_vis": state==="about"}'>These correspond to our life in general as well. With no exception.</p>
+    </div>
+  </div>
+</div>

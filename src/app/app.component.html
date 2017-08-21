@@ -58,8 +58,12 @@
   <div class="screen">
     <app-services></app-services>
   </div>
-  <div class="screen">3</div>
-  <div class="screen">4</div>
+  <div class="screen">
+    3
+  </div>
+  <div class="screen">
+    <app-about [state]='activeScreen'></app-about>
+  </div>
   <div class="screen">5</div>
   <div class="screen">
     <app-contact-form></app-contact-form>

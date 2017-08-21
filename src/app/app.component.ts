@@ -10,6 +10,7 @@ import $ from "jquery";
 export class AppComponent implements OnInit {
   title = 'app';
   hiddenMenu: string = 'nav-container_hidden';
+  activeScreen = 'home';
   ngOnInit(){
     this.hideMenu();
   }
@@ -38,12 +39,25 @@ export class AppComponent implements OnInit {
     let width = $('.screen').width();
     let menuItems = document.querySelectorAll('.main-menu__item');
     let curIndex: number = 0;
-    nodeForEach(menuItems, function(item, index){
+    nodeForEach(menuItems, (item, index)=>{
       if(item==target){
         item.classList.add('main-menu__item_active');
         curIndex = index;
         screen.removeClass('screen_active');
         screen.eq(index).addClass('screen_active');
+        if(index === 3){
+          this.activeScreen = 'about';
+        }else if(index === 2){
+          this.activeScreen = 'projects';
+        }else if(index === 1){
+          this.activeScreen = 'services';
+        }else if(index === 0){
+          this.activeScreen = 'home';
+        }else if(index === 4){
+          this.activeScreen = 'career';
+        }else if(index === 5){
+          this.activeScreen = 'contacts';
+        }
       }else{
         item.classList.remove('main-menu__item_active');
       }
