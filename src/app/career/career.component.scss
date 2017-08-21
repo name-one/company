@@ -1,0 +1,85 @@
+@import '../../styles/variables';
+.container-fluid{
+
+}
+.page-title{
+  color: #3f3f3f;
+  margin-bottom: 10px;
+  font-family: $roboto;
+}
+.career{
+  height: 100vh;
+  background-image: url('../../assets/img/career-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  font-family: $lato;
+  &__text{
+    text-align: center;
+    font-size: .75rem;
+  }
+}
+.tech-block{
+  background-color: #3f3f3f;
+  margin: 9vh 0;
+  padding: {
+    top: 8vh;
+    bottom: 8vh;
+  };
+  &__text{
+    color: #fff;
+    font-size: .75rem;
+    margin: 0;
+  }
+  &__img{
+    display: block;
+    max-width: 18%;
+  }
+  &__img-container{
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  @include media(1500){
+    margin: 2vh 0;
+    padding: {
+      top: 4vh;
+      bottom: 4vh;
+    };
+  }
+}
+.career-footer{
+  padding: 10px 265px 10px 55px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  &__text{
+    font-size: .75rem;
+    margin: 0;
+    font-family: $lato;
+    font-style: italic;
+    color: #3f3f3f;
+  }
+}
+.career-footer-send{
+  &__text{
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    color: #fff;
+    font-family: $roboto;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+  }
+  &__link{
+    display: block;
+    text-transform: none;
+    font-weight: 400;
+    color: #3f3f3f;
+  }
+}

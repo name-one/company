@@ -11,6 +11,7 @@ import { DataService } from './services/data.service';
 import { TrelloService } from './services/trello.service';
 import { SocialComponent } from './social/social.component';
 import { AboutComponent } from './about/about.component';
+import { CareerComponent } from './career/career.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AboutComponent } from './about/about.component';
     ServicesComponent,
     SliderComponent,
     SocialComponent,
-    AboutComponent
+    AboutComponent,
+    CareerComponent
   ],
   imports: [
     BrowserModule,

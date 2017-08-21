@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="108px" height="114px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 108000 114000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil2 {fill:none}
+    .fil0 {fill:#C4473A}
+    .fil1 {fill:url(#id1)}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M53706 57000l11189 0 -11101 -23215 -9785 23215 9697 0zm122 -56501l-53168 18710 8402 69658 44825 24635 45053 -24965 8401 -69655 -53513 -18383zm-14147 67037l-6592 15979 -12258 -285 32871 -73128 34384 73413 -11731 -156 -7216 -16584 -15408 242 -14050 519zm0 0l0 0 0 0z"/>
+   </clipPath>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="-41803" y1="57000" x2="149804" y2="57000">
+   <stop offset="0" style="stop-opacity:1; stop-color:#FE6901"/>
+   <stop offset="0.631373" style="stop-opacity:1; stop-color:#B9CF27"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#55A925"/>
+  </linearGradient>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+   <path class="fil0" d="M53706 57000l11189 0 -11101 -23215 -9785 23215 9697 0zm122 -56501l-53168 18710 8402 69658 44825 24635 45053 -24965 8401 -69655 -53513 -18383zm-14147 67037l-6592 15979 -12258 -285 32871 -73128 34384 73413 -11731 -156 -7216 -16584 -15408 242 -14050 519zm0 0l0 0 0 0z"/>
+  </g>
+  <g style="clip-path:url(#id0)">
+   <g>
+    <ellipse class="fil1" cx="54001" cy="57000" rx="95803" ry="95318"/>
+   </g>
+  </g>
+  <path class="fil2" d="M53706 57000l11189 0 -11101 -23215 -9785 23215 9697 0zm122 -56501l-53168 18710 8402 69658 44825 24635 45053 -24965 8401 -69655 -53513 -18383zm-14147 67037l-6592 15979 -12258 -285 32871 -73128 34384 73413 -11731 -156 -7216 -16584 -15408 242m-14050 519l0 0 0 0z"/>
+ </g>
+</svg>
