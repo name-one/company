@@ -18,6 +18,20 @@ export class SliderComponent implements OnInit, AfterContentInit{
      slidesToShow: 3,
      nextArrow: '<i class="fa fa-angle-right slider__arrow slider__arrow_next" aria-hidden="true"></i>',
      prevArrow: '<i class="fa fa-angle-left slider__arrow" aria-hidden="true"></i>',
+     responsive: [
+       {
+         breakpoint: 992,
+         settings: {
+           slidesToShow: 2
+         }
+       },
+       {
+         breakpoint: 768,
+         settings: {
+           slidesToShow: 1
+         }
+       }
+     ]
    };
 
    constructor(private el: ElementRef) {
