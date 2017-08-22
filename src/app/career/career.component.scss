@@ -1,14 +1,11 @@
 @import '../../styles/variables';
-.container-fluid{
-
-}
 .page-title{
   color: #3f3f3f;
   margin-bottom: 10px;
   font-family: $roboto;
 }
 .career{
-  height: 100vh;
+  min-height: 100vh;
   background-image: url('../../assets/img/career-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -31,6 +28,9 @@
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    @include media(992){
+      display: block;
+    }
   }
   &__text{
     color: #fff;
@@ -40,14 +40,24 @@
   &__img{
     display: block;
     max-width: 18%;
+    @include media(600){
+      max-width: 35%;
+      width: 35%;
+      margin: 10px;
+    }
   }
   &__img-container{
     display: flex;
     height: 100px;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     align-items: center;
     justify-content: space-between;
+    @include media(992){
+      margin-bottom: 20px;
+      height: auto;
+    }
   }
   @include media(1500){
     margin: 2vh 0;
@@ -83,6 +93,9 @@
     &__send{
       text-align: center;
     }
+  }
+  @include media(768){
+    margin-bottom: 40px;
   }
 }
 .career-footer-send{

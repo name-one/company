@@ -1,13 +1,15 @@
 @import '../../styles/variables';
 .container-fluid{
-  height: 100vh;
+  min-height: 100vh;
   background-color: $grey;
   padding-top: 20px;
   @include media(1300){
     padding-top: 60px;
+    padding-bottom: 130px;
   }
 }
 .form{
+  $this: '.form';
   font-weight: 300;
   color: $grey-text;
   font-family: $lato;
@@ -35,6 +37,13 @@
       margin-left: 8%;
       width: 46%;
       float: left;
+    }
+    @include media(600){
+      float: none;
+      width: 100%;
+      &_right{
+        margin-left: 0;
+      }
     }
   }
   &__clear-fix{
@@ -81,6 +90,33 @@
     &_invalid{
       .icon-error{
         opacity: 1;
+      }
+    }
+    &_rad{
+      @include media(1000){
+        text-align: center;
+        #{$this}__text{
+          display: block;
+          text-align: center;
+          margin-bottom: 30px;
+        }
+        #{$this}__radio{
+          margin: 0;
+          &:nth-of-type(2){
+            margin: 0 20px;
+          }
+        }
+      }
+      @include media(500){
+        #{$this}__radio{
+          margin: 0 auto;
+          display: block;
+          width: 160px;
+          text-align: left;
+          &:nth-of-type(2){
+            margin: 20px auto;
+          }
+        }
       }
     }
   }
@@ -180,6 +216,9 @@
 }
 .button{
   margin-right: 0;
+  @include media(600){
+    margin: 0 auto;
+  }
 }
 .write{
   &__text{
@@ -189,6 +228,12 @@
   &__link{
     color: $green;
     font-weight: bold;
+  }
+  @include media(600){
+    text-align: center;
+    width: 100%;
+    margin: 20px 0 40px;
+    float: none;
   }
 }
 .text-color{
