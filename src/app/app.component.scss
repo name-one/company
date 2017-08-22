@@ -28,10 +28,14 @@
     display: table;
     clear: both;
   }
+  @include media(992){
+    width: 100%;
+  }
 }
  .screen{
   float: left;
   width: 100vw;
+  height: 100vh;
   &_active{
     .logo{
       @include appearing;
@@ -40,10 +44,14 @@
       @include appearing($appear-time / 5);
     }
   }
+  @include media(992){
+    float: none;
+    margin-left: 0 !important;
+    height: auto;
+    min-height: 100vh;
+  }
 }
 .home-screen{
-  width: 100vw;
-  height: 100vh;
   background-image: url($img-path+'home-bg-lg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,6 +60,7 @@
   float: none;
   display: block;
   margin: 0 auto;
+  width: 160px;
   &__img{
     display: block;
     margin: 0 auto;
@@ -73,6 +82,12 @@
 }
 .home-screen{
   padding-top: 10vh;
+  @include media(992){
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 .slogan{
   color: #fff;
@@ -82,11 +97,19 @@
   text-align: center;
   line-height: 1.4em;
   &__large{
+    display: block;
     font-size: 2.8rem;
+  }
+  @include media(992){
+    margin-top: 20px;
+    font-size: 22px;
+    &__large{
+      font-size: 24px;
+    }
   }
 }
 .nav-container{
-  position: absolute;
+  position: fixed;
   overflow: hidden;
   bottom: 0;
   left: 0;

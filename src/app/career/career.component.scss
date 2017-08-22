@@ -26,6 +26,12 @@
     top: 8vh;
     bottom: 8vh;
   };
+  &>.row{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
   &__text{
     color: #fff;
     font-size: .75rem;
@@ -64,8 +70,19 @@
     font-style: italic;
     color: #3f3f3f;
   }
-  @include media (1500){
-    padding: 10px 265px 10px 55px;
+  @include media(1500){
+    padding: 10px 265px 10px 240px;
+  }
+  @include media(1200){
+    padding: 0;
+    display: block;
+    &__text{
+      margin: 0 auto 20px;
+      text-align: center;
+    }
+    &__send{
+      text-align: center;
+    }
   }
 }
 .career-footer-send{

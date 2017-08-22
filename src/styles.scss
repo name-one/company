@@ -13,6 +13,10 @@ html{
   max-width: 100%;
   overflow: hidden;
   margin: 0;
+  @include media(992){
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
 }
 html{
   font-size: 24px;
@@ -22,9 +26,15 @@ html{
   @include media(1500){
     font-size: 20px;
   }
+  @include media(992){
+    font-size: 16px;
+  }
 }
 body{
   font-family: $roboto;
+  .container{
+    max-width: 100%;
+  }
 }
 img{
   max-width: 100%;
@@ -48,6 +58,12 @@ img{
       delay: $appear-time / 2.5;
       duration: $appear-time;
       fill-mode: both;
+    }
+  }
+  @include media(992){
+    font-size: 22px;
+    &_home{
+      margin-bottom: 40px;
     }
   }
 }
@@ -76,11 +92,17 @@ img{
     transition: all .3s;
     cursor: pointer;
     &_next{
-      left: initial;
+      left: initial !important;
       right: -30px;
     }
     &:hover{
       color: rgba(#fff, .75);
+    }
+    @include media (1024){
+      left: 0;
+      &_next{
+        right: 0px;
+      }
     }
   }
 }

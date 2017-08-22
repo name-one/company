@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  endpoint: 'https://api.trello.com/1/cards?idList='
 };
