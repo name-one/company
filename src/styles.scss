@@ -106,3 +106,19 @@ img{
     }
   }
 }
+.webp{
+  .home-screen{
+    background-image: url("/assets/img/home-bg-lg.webp");
+  }
+  .career{
+    background-image: url('/assets/img/career-bg.webp');
+  }
+}
+.nowebp{
+  .home-screen{
+    background-image: url("/assets/img/home-bg-lg.jpg");
+  }
+  .career{
+    background-image: url('/assets/img/career-bg.jpg');
+  }
+}
