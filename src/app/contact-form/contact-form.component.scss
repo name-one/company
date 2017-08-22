@@ -3,6 +3,9 @@
   height: 100vh;
   background-color: $grey;
   padding-top: 20px;
+  @include media(1300){
+    padding-top: 60px;
+  }
 }
 .form{
   font-weight: 300;
