@@ -37,7 +37,7 @@
 </header>
 <app-social></app-social>
 <div class="wrapper">
-  <div class="home-screen screen screen_active">
+  <div class="home-screen screen screen_active" id='home'>
     <div class="container-fluid">
       <div class="container">
         <div class="row">
@@ -59,19 +59,19 @@
       </div>
     </div>
   </div>
-  <div class="screen">
+  <div class="screen" id='services'>
     <app-services></app-services>
   </div>
-  <div class="screen">
+  <div class="screen" id='projects'>
     3
   </div>
-  <div class="screen">
+  <div class="screen" id='about'>
     <app-about [state]='activeScreen'></app-about>
   </div>
-  <div class="screen">
+  <div class="screen" id='career'>
     <app-career></app-career>
   </div>
-  <div class="screen">
+  <div class="screen" id='contacts'>
     <app-contact-form></app-contact-form>
   </div>
 </div>

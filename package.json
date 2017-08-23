@@ -23,8 +23,10 @@
     "@angular/router": "^4.0.0",
     "bootstrap-grid": "^2.0.1",
     "core-js": "^2.4.1",
+    "gsap": "^1.20.2",
     "jquery": "^3.2.1",
     "rxjs": "^5.4.1",
+    "scrollmagic": "^2.0.5",
     "slick-carousel": "^1.7.1",
     "zone.js": "^0.8.14"
   },
