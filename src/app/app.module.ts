@@ -12,6 +12,7 @@ import { TrelloService } from './services/trello.service';
 import { SocialComponent } from './social/social.component';
 import { AboutComponent } from './about/about.component';
 import { CareerComponent } from './career/career.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CareerComponent } from './career/career.component';
     SliderComponent,
     SocialComponent,
     AboutComponent,
-    CareerComponent
+    CareerComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
