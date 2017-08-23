@@ -116,7 +116,8 @@
   width: 100%;
   transition: all .3s;
   &_hidden{
-    transform: translateY(60%)
+    transform: translateY(60%);
+
   }
   .col-md-12{
     padding: 0;
@@ -140,6 +141,9 @@
       left: 100%;
       background-color: #56a925;
     }
+  }
+  @include media(1100){
+    transform: translateY(60%);
   }
 }
 .main-menu{
@@ -255,6 +259,14 @@
     color: #fff;
     &::before{
       color: inherit;
+    }
+  }
+  @include media(1100){
+    &__link{
+      opacity: 0;
+    }
+    &__item{
+      width: 44px;
     }
   }
 }
