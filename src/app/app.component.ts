@@ -67,11 +67,13 @@ export class AppComponent implements OnInit {
   }
   toggleScreen(event){
     let target = event.target;
+    console.log(target.tagName)
     let screen = $('.screen');
     let wrapper = document.querySelector('.wrapper');
     if(target.tagName == 'A'){
       target = target.parentNode;
       if($(window).width()<=992){
+
         $('body').animate({scrollTop: $('.screen').eq($(target).index()).offset().top})
       }
     }
@@ -95,23 +97,23 @@ export class AppComponent implements OnInit {
         return false
       }
       if($(this).index() < curIndex){
-        console.log('recursion')
         $(this).animate({ marginLeft: `-100vw`})
       }else{
         $(this).animate({ marginLeft: 0 })
       }
     })
   }
-
-
-
-
   switchToContactPage(){
     let menuItems = document.getElementsByClassName('main-menu__item');
     let click = new Event('click');
     nodeForEach( menuItems, (item)=>{
       if(item.innerHTML.indexOf('Contacts') != -1){
+        // console.log(screen.width)
         item.dispatchEvent(click);
+        if($(window).width() <= 992 ){
+          $('body').animate({scrollTop: $('.screen').last().offset().top})
+        }
+        item.children[1].dispatchEvent(click);
       }
     })
   }

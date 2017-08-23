@@ -1,6 +1,6 @@
 @import '../../styles/variables';
 .container-fluid{
-  height: 100vh;
+  min-height: 100vh;
   background-color: $grey;
   padding-top: 20px;
 }
@@ -53,6 +53,9 @@
     &:nth-of-type(4){
       transition-delay: 1.2s;
     }
+  }
+  @include media(770){
+    width: 100%;
   }
 }
 .text-decore{
