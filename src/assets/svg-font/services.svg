@@ -1,29 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW X8 -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="38px" height="38px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 38000 38000"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="87px" height="79px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 87000 79091"
  xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
    <![CDATA[
-    .fil0 {fill:white}
+    .fil0 {fill:#FEFEFE}
    ]]>
   </style>
  </defs>
  <g id="Слой_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <g id="_576846927872">
-   <path class="fil0" d="M18908 4367c8136,0 14732,6596 14732,14733 0,8137 -6596,14733 -14732,14733 -8137,0 -14733,-6596 -14733,-14733 0,-8137 6596,-14733 14733,-14733zm0 5626c5029,0 9107,4078 9107,9107 0,5029 -4078,9107 -9107,9107 -5030,0 -9107,-4078 -9107,-9107 0,-5029 4077,-9107 9107,-9107z"/>
-   <rect class="fil0" transform="matrix(2.00353 0.466514 -0.466514 2.00353 19865.9 494.244)" width="3125" height="2604"/>
-   <rect class="fil0" transform="matrix(1.2649 1.62228 -1.62228 1.2649 31631.4 5274.83)" width="3125" height="2604"/>
-   <rect class="fil0" transform="matrix(-0.0217982 2.05701 -2.05701 -0.0217982 37422 16448.6)" width="3125" height="2604"/>
-   <rect class="fil0" transform="matrix(-1.37277 1.53208 -1.53208 -1.37277 34831.3 28937.2)" width="3125" height="2604"/>
-   <rect class="fil0" transform="matrix(-2.03263 0.316506 -0.316506 -2.03263 25170.9 36515.9)" width="3125" height="2604"/>
-   <rect class="fil0" transform="matrix(-1.77239 -1.04422 1.04422 -1.77239 12010.3 36425.3)" width="3125" height="2604"/>
-   <rect class="fil0" transform="matrix(-0.683567 -1.94023 1.94023 -0.683567 2713.63 27567.9)" width="3125" height="2604"/>
-   <rect class="fil0" transform="matrix(0.851278 -1.87272 1.87272 0.851278 669.962 15015.6)" width="3125" height="2604"/>
-   <rect class="fil0" transform="matrix(1.74639 -1.08714 1.08714 1.74639 7257.7 4586.12)" width="3125" height="2604"/>
-  </g>
+  <path class="fil0" d="M83045 46524l-10142 0c-790,3257 -2047,6281 -3768,8979l7165 7165 -9770 9770 -7165 -7165c-2699,1675 -5723,2931 -8887,3675l1 10143 -13958 0 0 -10143c-3164,-744 -6187,-2000 -8886,-3675l-7165 7165 -9862 -9863 7165 -7165c-1676,-2698 -2932,-5722 -3676,-8886l-10142 0 0 -13818 10096 0c744,-3256 2046,-6280 3722,-9025l-7165 -7165 9770 -9770 7164 7165c2698,-1722 5770,-2977 8979,-3769l0 -10142 13958 0 0 10143c3164,744 6187,2000 8886,3675l7165 -7165 9862 9863 -7165 7165c1676,2745 2978,5769 3723,9025l10095 0 0 13818zm-39545 6979c7723,0 13957,-6234 13957,-13958 0,-7723 -6234,-13957 -13957,-13957 -7723,0 -13957,6234 -13957,13957 0,7724 6234,13958 13957,13958z"/>
  </g>
 </svg>

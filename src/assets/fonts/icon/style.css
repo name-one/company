@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?22evf8');
-  src:  url('fonts/icomoon.eot?22evf8#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?22evf8') format('truetype'),
-    url('fonts/icomoon.woff?22evf8') format('woff'),
-    url('fonts/icomoon.svg?22evf8#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?lmgnsw');
+  src:  url('fonts/icomoon.eot?lmgnsw#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?lmgnsw') format('truetype'),
+    url('fonts/icomoon.woff?lmgnsw') format('woff'),
+    url('fonts/icomoon.svg?lmgnsw#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -42,7 +42,7 @@
 }
 .icon-clients:before {
   content: "\e904";
-  color: #fff;
+  color: #fefefe;
 }
 .icon-contact:before {
   content: "\e905";
@@ -70,7 +70,7 @@
 }
 .icon-services:before {
   content: "\e90b";
-  color: #fff;
+  color: #fefefe;
 }
 .icon-values:before {
   content: "\e90c";

@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW X8 -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="41px" height="38px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 41000 38000"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="87px" height="79px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 87000 79091"
  xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
    <![CDATA[
-    .str0 {stroke:white;stroke-width:4000.15}
-    .fil1 {fill:none}
-    .fil0 {fill:white}
+    .fil0 {fill:#FEFEFE}
    ]]>
   </style>
  </defs>
  <g id="Слой_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <g id="_576846595680">
-   <path class="fil0" d="M4162 9532l32675 0c1960,0 3561,1601 3561,3561l0 5444 -39796 0 0 -5444c0,-1960 1601,-3561 3560,-3561z"/>
-   <path class="fil0" d="M40398 20632l0 11102c0,1959 -1601,3559 -3561,3559l-32675 0c-1959,0 -3560,-1600 -3560,-3559l0 -11102 16337 0 0 2673c0,373 306,679 681,679l5551 0c375,0 680,-306 680,-679l0 -2673 16547 0z"/>
-   <rect class="fil1 str0" x="13046" y="2706" width="14907" height="10473" rx="2989" ry="3990"/>
-  </g>
+  <path class="fil0" d="M63064 22073l14527 -21c4091,0 7432,3300 7432,7338l0 11218 -83046 0 0 -11218c0,-4038 3341,-7338 7429,-7338l14532 -1 0 -8051c0,-5525 4577,-10045 10172,-10045l18782 0c5595,0 10173,4521 10173,10045l-1 8073zm-8869 42l0 -7085c0,-1699 -1411,-3090 -3128,-3090l-14715 0c-1719,0 -3125,1392 -3129,3090l-18 7085 20990 0zm30828 22810l0 22877c0,4037 -3341,7334 -7432,7334l-68185 0c-4088,0 -7429,-3296 -7429,-7334l0 -22877 34092 0 0 5508c0,769 639,1400 1421,1400l11584 0c782,0 1418,-631 1418,-1400l0 -5508 34531 0z"/>
  </g>
 </svg>
