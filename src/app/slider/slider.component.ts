@@ -14,7 +14,7 @@ export class SliderComponent implements OnInit, AfterContentInit{
 
    defaultOptions: any = {
      autoplay: true,
-     autoplaySpeed: 3000,
+     autoplaySpeed: 5000,
      slidesToShow: 3,
      nextArrow: '<i class="fa fa-angle-right slider__arrow slider__arrow_next" aria-hidden="true"></i>',
      prevArrow: '<i class="fa fa-angle-left slider__arrow" aria-hidden="true"></i>',

@@ -82,6 +82,11 @@ img{
   }
 }
 .slider{
+  &__item{
+    &:focus{
+      box-shadow: none;
+    }
+  }
   &__arrow{
     color: rgba(#fff, .25);
     font-size: 70px;

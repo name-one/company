@@ -151,7 +151,7 @@
     border: none;
     border-bottom: 1px solid #9a9a9a;
     line-height: 1.2em;
-    height: 1.4em;
+    height: 1.8em;
     background-color: transparent;
     resize: none;
     overflow: hidden;
@@ -165,9 +165,9 @@
       }
     }
     &_ful-h{
-      height: 1.6em;
+      height: 1.8em;
       &:focus{
-        height: 1.6em;
+        height: 1.8em;
       }
     }
   }

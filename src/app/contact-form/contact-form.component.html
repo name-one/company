@@ -46,7 +46,7 @@
                     <label class='form__radio' for="other"> <i class='form__radio-icon'></i> Other</label>
                   </div>
                   <label  class="form__field" [class.form__field_hidden]='source!="Other"'>
-                    <textarea name="source-write" placeholder='How did You hear about us?*' [required]='source == "other"' class='form__textarea' (focus)="toggleFocus($event)" (blur)="toggleFocus($event); checkRequared($event)" [(ngModel)]='writedSource'></textarea>
+                    <textarea name="source-write" placeholder='How did you hear about us?*' [required]='source == "other"' class='form__textarea' (focus)="toggleFocus($event)" (blur)="toggleFocus($event); checkRequared($event)" [(ngModel)]='writedSource'></textarea>
                     <i class='icon-error'></i>
                   </label>
                   <label  class="form__field form__field_last">
@@ -57,11 +57,11 @@
                     <button class="button" [disabled]='!contactForm.valid'>Submit Request</button>
                   </div>
                   <div class="form__half_right write">
-                    <p class='write__text'>Or write to</p>
+                    <p class='write__text'>Or email us</p>
                     <a href="mailto: sales@nameone.io" class='write__link'>sales@nameone.io</a>
                   </div>
                   <div class="form__clear-fix"></div>
-                  <p class='form__succsess' *ngIf='status === "ok" '>Thanks! your message was successfully send</p>
+                  <p class='form__succsess' *ngIf='status === "ok" '>Thank you. Your message was successfully sent</p>
                   <p class='form__err' *ngIf='status === "error" '>An error occurred, please refresh the page and try again</p>
                 </div>
               </div>

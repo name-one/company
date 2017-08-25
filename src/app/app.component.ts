@@ -107,7 +107,7 @@ export class AppComponent implements OnInit {
     let menuItems = document.getElementsByClassName('main-menu__item');
     let click = new Event('click');
     nodeForEach( menuItems, (item)=>{
-      if(item.innerHTML.indexOf('Contacts') != -1){
+      if(item.innerHTML.indexOf('Contact') != -1){
         // console.log(screen.width)
         item.dispatchEvent(click);
         if($(window).width() <= 992 ){
