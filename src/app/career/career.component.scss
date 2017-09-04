@@ -78,9 +78,11 @@
     font-family: $lato;
     font-style: italic;
     color: #3f3f3f;
+    margin-right: 30px;
   }
   @include media(1500){
     // padding: 10px 265px 10px 240px;
+    justify-content: center;
   }
   @include media(1200){
     padding: 0;
@@ -98,6 +100,10 @@
   }
 }
 .career-footer-send{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   &__text{
     display: inline-block;
     margin: 0;
@@ -116,6 +122,8 @@
     color: #3f3f3f;
   }
   &__img{
-    filter: invert(.7)
+    filter: invert(.7);
+    display: inline-block;
+    margin-right: 10px;
   }
 }
