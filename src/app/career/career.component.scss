@@ -73,12 +73,13 @@
   align-items: center;
   justify-content: space-between;
   &__text{
-    font-size: .75rem;
+    font-size: .85rem;
     margin: 0;
     font-family: $lato;
     font-style: italic;
     color: #3f3f3f;
     margin-right: 30px;
+    font-weight: 600;
   }
   @include media(1500){
     // padding: 10px 265px 10px 240px;
