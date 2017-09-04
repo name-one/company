@@ -59,7 +59,7 @@
   float: none;
   display: block;
   margin: 0 auto;
-  width: 160px;
+  width: 240px;
   &__img{
     display: block;
     margin: 0 auto;
@@ -124,23 +124,23 @@
   }
   .container{
     position: relative;
-    &::before,
-    &::after{
-      content: '';
-      position: absolute;
-      width: 50vw;
-      height: 5px;
-      background-color: #fff;
-      top: 35%;
-    }
-    &::before{
-      right: 100%;
-      background-color: #fe6901;
-    }
-    &::after{
-      left: 100%;
-      background-color: #56a925;
-    }
+    // &::before,
+    // &::after{
+    //   content: '';
+    //   position: absolute;
+    //   width: 50vw;
+    //   height: 5px;
+    //   background-color: #fff;
+    //   top: 35%;
+    // }
+    // &::before{
+    //   right: 100%;
+    //   background-color: #fe6901;
+    // }
+    // &::after{
+    //   left: 100%;
+    //   background-color: #56a925;
+    // }
   }
   @include media(1100){
     transform: translateY(60%);
@@ -152,12 +152,12 @@
   $this: '.main-menu';
   &::before{
     content: '';
-    width: 100%;
+    width: 100vw;
     height: 5px;
     position: absolute;
     z-index: 0;
     top: 35%;
-    left: 0;
+    right: calc((-100vw + 100%) / 2);
     background-image: linear-gradient(to right,#fe6901,#56a925);
   }
   &__list{

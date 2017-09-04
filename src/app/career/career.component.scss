@@ -67,7 +67,7 @@
   }
 }
 .career-footer{
-  padding: 10px 230px 10px 55px;
+  // padding: 10px 230px 10px 55px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -80,7 +80,7 @@
     color: #3f3f3f;
   }
   @include media(1500){
-    padding: 10px 265px 10px 240px;
+    // padding: 10px 265px 10px 240px;
   }
   @include media(1200){
     padding: 0;
@@ -102,7 +102,8 @@
     display: inline-block;
     margin: 0;
     vertical-align: top;
-    color: #fff;
+    // color: #fff;
+    color: #3f3f3f;
     font-family: $roboto;
     font-weight: bold;
     text-transform: uppercase;
@@ -113,5 +114,8 @@
     text-transform: none;
     font-weight: 400;
     color: #3f3f3f;
+  }
+  &__img{
+    filter: invert(.7)
   }
 }
