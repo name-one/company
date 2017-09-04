@@ -50,11 +50,15 @@ img{
   border-radius: 8px;
   cursor: pointer;
   &_home{
+    transition: all .3s;
     animation: {
       name: scaleButton;
       delay: $appear-time / 2.5;
       duration: $appear-time;
       fill-mode: both;
+    }
+    &:hover{
+      background-color: darken($green,10%);
     }
   }
   @include media(992){
